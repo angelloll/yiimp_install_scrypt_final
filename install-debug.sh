@@ -378,7 +378,7 @@
     
     # Compil Blocknotify
     cd ~
-    git clone https://github.com/Filnet82/kudaraidee.yiimp.31.10.23
+    git clone https://github.com/Kudaraidee/yiimp.git
     cd $HOME/yiimp/blocknotify
     sudo sed -i 's/tu8tu5/'$blckntifypass'/' blocknotify.cpp
     sudo make

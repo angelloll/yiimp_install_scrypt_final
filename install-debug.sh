@@ -172,13 +172,7 @@
     fi
     sudo apt -y update
 
-    if [[ ("$DISTRO" == "16") ]]; then
-    sudo apt -y install php8.2-fpm php8.2-opcache php8.2 php8.2-common php8.2-gd php8.2-mysql php8.2-imap php8.2-cli \
-    php8.2-cgi php-pear php-auth imagemagick libruby php8.2-curl php8.2-intl php8.2-pspell mcrypt\
-    php8.2-recode php8.2-sqlite3 php8.2-tidy php8.2-xmlrpc php8.2-xsl memcached php-memcache php-imagick php-gettext php8.2-zip php8.2-mbstring
-    #sudo phpenmod mcrypt
-    #sudo phpenmod mbstring
-    if [[ ("$DISTRO" == "20") ]]; then
+    if [[ ("$DISTRO" == "22") ]]; then
 	apt_install php8.2-fpm php8.2-opcache php8.2 php8.2-common php8.2-gd php8.2-mysql php8.2-imap php8.2-cli
 	apt_install php8.2-cgi php8.2-curl php8.2-intl php8.2-pspell
 	apt_install php8.2-sqlite3 php8.2-tidy php8.2-xmlrpc php8.2-xsl php8.2-zip

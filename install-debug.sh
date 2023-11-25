@@ -1057,14 +1057,14 @@
     // Automatic withdraw to Yaamp btc wallet if btc balance > 0.3
     define('"'"'EXCH_AUTO_WITHDRAW'"'"', 0.3);
     
-    // nicehash keys deposit account & amount to deposit at a time
-    define('"'"'NICEHASH_API_KEY'"'"','"'"'f96c65a7-3d2f-4f3a-815c-cacf00674396'"'"');
-    define('"'"'NICEHASH_API_ID'"'"','"'"'825979'"'"');
-    define('"'"'NICEHASH_DEPOSIT'"'"','"'"'3ABoqBjeorjzbyHmGMppM62YLssUgJhtuf'"'"');
+     // nicehash keys deposit account & amount to deposit at a time
+    define('"'"'NICEHASH_API_KEY'"'"','"'"'6b950c15-b6a9-4f74-a7ec-1c2496bc8e8e'"'"');
+    define('"'"'NICEHASH_API_ID'"'"','"'"'692bad3e-e86d-400a-99c2-e67772feff55'"'"');
+    define('"'"'NICEHASH_DEPOSIT'"'"','"'"'bc1q705e4qyyn9fmghud00vvp3e7cqscmjqcqs2e2t'"'"');
     define('"'"'NICEHASH_DEPOSIT_AMOUNT'"'"','"'"'0.01'"'"');
     
     $cold_wallet_table = array(
-    '"'"'1PqjApUdjwU9k4v1RDWf6XveARyEXaiGUz'"'"' => 0.10,
+	'"'"'bc1q705e4qyyn9fmghud00vvp3e7cqscmjqcqs2e2t'"'"' => 0.10,
     );
     
     // Sample fixed pool fees

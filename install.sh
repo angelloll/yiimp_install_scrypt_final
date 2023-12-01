@@ -880,7 +880,8 @@
     Q1="CREATE DATABASE IF NOT EXISTS yiimpfrontend;"
     Q2="GRANT ALL ON *.* TO 'panel'@'localhost' IDENTIFIED BY '$password';"
     Q3="FLUSH PRIVILEGES;"
-    SQL="${Q1}${Q2}${Q3}"
+    Q4="USE DATABASE yiimpfrontend;"
+    SQL="${Q1}${Q2}${Q3}${Q4}"
     sudo mysql -u root -p="" -e "$SQL"
     
     # Create stratum user

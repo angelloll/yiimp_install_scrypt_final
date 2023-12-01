@@ -877,17 +877,17 @@
     sleep 3
     
     # Create database
-    Q1="CREATE DATABASE IF NOT EXISTS yiimpfrontend;"
+    Q1="CREATE DATABASE IF NOT EXISTS yiimpfrontend; "
     Q2="GRANT ALL ON *.* TO 'panel'@'localhost' IDENTIFIED BY '$password';"
     Q3="FLUSH PRIVILEGES;"
     Q4="USE DATABASE yiimpfrontend;"
-    SQL="${Q1}${Q2}${Q3}${Q4}"
+    SQL="${Q1}${Q4}${Q2}${Q3}"
     sudo mysql -u root -p="" -e "$SQL"
     
     # Create stratum user
     Q1="GRANT ALL ON *.* TO 'stratum'@'localhost' IDENTIFIED BY '$password2';"
     Q2="FLUSH PRIVILEGES;"
-    SQL="${Q1}${Q2}"
+    SQL="${Q1}${Q4}${Q2}"
     sudo mysql -u root -p="" -e "$SQL"  
     
     #Create my.cnf

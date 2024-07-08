@@ -220,7 +220,7 @@
     sudo apt -y install libqt5gui5 libqt5core5a libqt5webkit5-dev libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler
     sudo add-apt-repository -y  ppa:luke-jr/bitcoincore
     sudo apt -y update
-    sudo apt -y install libdb4.8-dev libdb4.8++-dev libdb5.3 libdb5.3++
+    sudo apt -y install libdb5.3-dev libdb5.3++-dev libdb5.3 libdb5.3++
     echo -e "$GREEN Done...$COL_RESET"
        
     
